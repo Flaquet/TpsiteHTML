@@ -1,0 +1,94 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 0.0625rem 0.0625rem 0.0625rem rgba(0,0,0,.04);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: robotoReg,Arial,sans-serif;
+    min-height: 100vh!important;
+    height: 100%!important;
+    overflow: auto!important;
+    background-color:purple;
+    color: white;
+}
+body {
+    font: 1em sans-serif;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+html {
+    color: -internal-root-color;
+}
+
+/* c'est le style de container */
+.container {
+    padding-bottom: 2.5rem;
+}
+.container {
+    padding-bottom: 3.75rem;
+    /*background: #fff;*/
+}
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+section {
+    display: block;
+}
+
+
+
+/* c'est la fin du style de container */
+.push-card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+/*.push-card--image-fullwidth .push-card__content.simple-title .h1 {
+    width: 100%;
+    max-width: 53.6875rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5.625rem;
+    padding-bottom: 1.875rem;
+}*/
+
+.push-card .h1 {
+    font-family: Aiglon Bold,Arial,sans-serif;
+}
+.left{
+    text-align: initial;
+    border-bottom: solid 1px #c0c6cc;
+}
+.leftsoustitre{
+    text-align: initial;
+    display: block;
+}
+img{
+    float: left;
+}
+.ligneretour{
+    display: block;
+    
+}
+.ligneretour1{
+    display: block;
+    width: 5px;
+    height: 50px;
+}
